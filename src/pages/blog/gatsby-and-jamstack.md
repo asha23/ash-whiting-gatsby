@@ -29,7 +29,7 @@ Exciting stuff, I think you'll agree. It's extremely elegant and simple to creat
 
 Getting clients to buy into this methodology might well be a real struggle. They will reap the benefits of a static website in terms of page speeds, however, they might want to update things. That's where the WordPress Rest API comes in. Luckily Gatsby has a methodology to deal with that.
 
-MarkDown is not hard. It's actually easier to construct neat looking pages with it. It's actually easier to use than the editor in WordPress. Having said that, it's code. And clients don't want to code, do they?
+MarkDown is not hard. It's actually easier to construct neat looking pages with it than it is to create neat looking pages with a fake browser based version of Microsoft Word. It's actually easier to use than the editor in WordPress. Having said that, it's code. And clients don't want to code, do they?
 
 
 
