@@ -54,7 +54,7 @@ export default ({ children }) => {
 					text-align:right;
 				`}
 			>
-				<Link
+				{/* <Link
 					to={`/about/`}
 					css={css`
 						padding: 0 10px;
@@ -63,7 +63,7 @@ export default ({ children }) => {
           			`}
 				>
 					About
-        		</Link>
+        		</Link> */}
 
 				{/* <Link
 					to={`/my-files/`}
