@@ -85,10 +85,10 @@ export default ({ children }) => {
 			<footer>
 				<div 
 					css={`
-						text-align:center;
+						text-align:left;
 					`}
 				>
-					<a href="http://www.ashwhiting.com">Site by Ash</a>
+					<a href="http://www.ashwhiting.com">This website was by Ash</a>
 				</div>
 			</footer>
 		</div>
