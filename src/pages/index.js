@@ -50,7 +50,16 @@ export default ({ data }) => (
 					>
 						<Link
 							to={node.fields.slug}
+							css={css`
+								padding:10px 20px;
+								background-image:none;
+								text-shadow:none;
+								background:#ebebeb!important;
+								color:black!important;
+								border-radius:3px;
+								text-decoration:none;
 
+							`}
 						>
 							Read More
 						</Link>

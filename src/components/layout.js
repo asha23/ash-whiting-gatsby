@@ -20,7 +20,7 @@ export default ({ children }) => {
 		<div
 			css={css`
 				
-				padding:10px;
+				padding:20px;
         		padding: ${rhythm(2)};
 				padding-top: ${rhythm(1.5)};
 				background:#fafafa;
@@ -38,7 +38,7 @@ export default ({ children }) => {
 					<h1
 						css={css`
 							  margin-bottom: ${rhythm(2)};
-							  font-size:42px;
+							  font-size:72px;
             			`}
 					>
 						{data.site.siteMetadata.title}
