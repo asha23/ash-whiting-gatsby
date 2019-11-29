@@ -20,25 +20,26 @@ export default ({ children }) => {
 	return (
 		<div
 			css={css`
-				padding:20px;
-        		padding: ${rhythm(2)};
+				padding:0px;
+        		padding: ${rhythm(1)};
 				padding-top: ${rhythm(1.5)};
-				background:#fafafa;
+				
+				text-shadow:none;
       		`}
 		>
 			<div 
 				className="header-logo"
 				css={css`
-					display:inline-block;
 					vertical-align:middle;
-					width:50%;
+					border-bottom:1px solid red;
 				`}
 			>
 				<Link to={`/`}>
 					<h1
 						css={css`
-							  margin-bottom: ${rhythm(2)};
-							  font-size:72px;
+							margin-top:: ${rhythm(1)};
+							margin-bottom: ${rhythm(1)};
+							font-size:72px;
             			`}
 					>
 						{data.site.siteMetadata.title}
@@ -84,11 +85,12 @@ export default ({ children }) => {
 			
 			<footer>
 				<div 
-					css={`
+					css={css`
 						text-align:left;
+						font-size:9px;
 					`}
 				>
-					<a href="http://www.ashwhiting.com">This website was by Ash</a>
+					<a href="http://www.ashwhiting.com">More about Ash</a>
 				</div>
 			</footer>
 		</div>
