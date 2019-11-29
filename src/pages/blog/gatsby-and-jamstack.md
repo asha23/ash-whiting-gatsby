@@ -2,7 +2,7 @@
 title: "Gatsby and the JAMStack"
 date: "2019-11-29"
 ---
-Lately I have been looking into creating sites in a more modular, sensible and maintainable way. This is after nearly a decade of using WordPress to essentially over-engineer everything.
+Lately I have been looking into creating sites in a more modular, sensible and maintainable way. Otherwise known as the [JAMStack](https://jamstack.org/) This is after nearly a decade of using WordPress to essentially over-engineer everything!
 
 Enter [Gatsby](https://www.gatsbyjs.org/). This is a very neat and extensible static website generator, based around React and GraphQL. This website was built in an afternoon, by working through their excellent tutorials. 
 
