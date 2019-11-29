@@ -21,7 +21,6 @@ export default ({ children }) => {
 			css={css`
 				
 				padding:10px;
-        		max-width: 1200px;
         		padding: ${rhythm(2)};
 				padding-top: ${rhythm(1.5)};
 				background:#fafafa;
