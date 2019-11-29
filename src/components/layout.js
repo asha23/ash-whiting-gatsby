@@ -3,14 +3,15 @@ import { useStaticQuery, Link, graphql } from "gatsby"
 import { css } from "@emotion/core"
 import { rhythm } from "../utils/typography"
 
+
 export default ({ children }) => {
 	const data = useStaticQuery(
 		graphql`
 			query {
 				site {
-				siteMetadata {
-					title
-				}
+					siteMetadata {
+						title
+					}
 				}
 			}
 		`
@@ -19,7 +20,6 @@ export default ({ children }) => {
 	return (
 		<div
 			css={css`
-				
 				padding:20px;
         		padding: ${rhythm(2)};
 				padding-top: ${rhythm(1.5)};
@@ -82,7 +82,17 @@ export default ({ children }) => {
 				{children}
 			</div>
 			
-
+			<footer>
+				<div 
+					css={`
+						text-align:center;
+					`}
+				>
+					<a href="http://www.ashwhiting.com">Site by Ash</a>
+				</div>
+			</footer>
 		</div>
+
+		
 	)
 }
