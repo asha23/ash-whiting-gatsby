@@ -37,7 +37,8 @@ export default ({ children }) => {
 				<Link to={`/`}>
 					<h1
 						css={css`
-              				margin-bottom: ${rhythm(2)};
+							  margin-bottom: ${rhythm(2)};
+							  font-size:42px;
             			`}
 					>
 						{data.site.siteMetadata.title}

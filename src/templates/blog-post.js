@@ -8,7 +8,7 @@ export default({data}) => {
         <Layout>
             <div>
                 <header>
-                    <h1>{post.frontmatter.title}</h1>
+                    <h2>{post.frontmatter.title}</h2>
                     <h4>Posted: {post.frontmatter.date}</h4>
                     <div dangerouslySetInnerHTML={{__html: post.html}} />
                 </header>
