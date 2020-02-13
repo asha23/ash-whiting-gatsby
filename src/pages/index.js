@@ -9,16 +9,23 @@ export default ({ data }) => (
 	<Layout>
 		<div>
 			<h2 css={css`
-					display:inline-block;
+			
+					padding-bottom:20px;
 		  		`}
 			>
 				A web development blog
 		  	</h2>
 
-			<h4>{data.allMarkdownRemark.totalCount} Posts</h4>
+			{/* <h4>{data.allMarkdownRemark.totalCount} Posts</h4> */}
 
 			{data.allMarkdownRemark.edges.map(({ node }) => (
-				<div key={node.id}>
+				<div key={node.id}
+					css={css`
+						margin-top:80px;
+						margin-bottom:80px;
+					`}
+				
+				>
 					<Link
 						to={node.fields.slug}
 					>
@@ -28,24 +35,40 @@ export default ({ data }) => (
 			   				`}
 						>
 							{node.frontmatter.title}{" "}
-							<span
-								css={css`
-				   					color: #bbb;
-				 				`}
-							>
-								— {node.frontmatter.date}
-							</span>
+							
 						</h3>
 					</Link>
-					<p>Time to read: {node.timeToRead} min</p>
-					<p>{node.excerpt}</p>
+					<div
+						css={css`
+							color: #bbb;
+							padding-bottom:10px;
+							font-family: 'Varela Round',sans-serif;
+					
+						`}
+					>
+						{node.frontmatter.date}
+					</div>
+					<div
+						css={css`
+							margin-bottom:10px;
+							font-size:12px;
+							font-family:'Varela', sans-serif;
+						`}
+					
+					>Time to read: {node.timeToRead} min</div>
+					<div
+						css={css`
+							
+						`}
+					
+					>{node.excerpt}</div>
 					<div
 						css={css`
 							width:100%;
 							text-align:right;
 							margin-bottom:20px;
 							padding-bottom:20px;
-							border-bottom:1px solid #efefef;
+							border-bottom:1px dotted #ccc;
 							font-weight:bold;
 						`}
 					>
@@ -62,7 +85,7 @@ export default ({ data }) => (
 
 							`}
 						>
-							Read More
+							...
 						</Link>
 					</div>
 				</div>
