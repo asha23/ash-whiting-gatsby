@@ -1,5 +1,5 @@
 ---
-title: "How to set up automatit Git deployments"
+title: "How to set up automatic Git deployments"
 date: "2019-12-03"
 ---
 ## What are we doing?

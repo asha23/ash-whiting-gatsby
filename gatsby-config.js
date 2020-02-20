@@ -9,7 +9,7 @@ module.exports = {
     title: 'prtbl',
     description: 'Prtbl is the personal blog of web developer Ash Whiting',
     image:'',
-    url:'https://www.prtbl.net',
+    url:'https://www.ashwhiting.com/blog',
     twitterUsername:''
   },
   plugins: [
@@ -28,5 +28,7 @@ module.exports = {
         pathToConfigModule: 'src/utils/typography',
       },
     },
+   
   ],
+  pathPrefix: `/blog`
 }
