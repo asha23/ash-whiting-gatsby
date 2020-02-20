@@ -9,7 +9,7 @@ module.exports = {
     title: 'prtbl',
     description: 'Prtbl is the personal blog of web developer Ash Whiting',
     image:'',
-    url:'https://www.ashwhiting.com/blog',
+    url:'https://www.ashwhiting.com/prtbl',
     twitterUsername:''
   },
   plugins: [
@@ -30,5 +30,5 @@ module.exports = {
     },
    
   ],
-  pathPrefix: `/blog`
+  pathPrefix: `/prtbl`
 }
